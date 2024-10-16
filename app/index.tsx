@@ -1,6 +1,6 @@
 import { Link } from 'expo-router'; 
 import React from 'react';
-import { View, Text, StyleSheet, Animated } from 'react-native';
+import { View, Text, Animated } from 'react-native';
 import { useEffect, useRef } from 'react';
 
 const Home = () => {

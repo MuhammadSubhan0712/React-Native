@@ -1,8 +1,11 @@
 import React from 'react'
+import { View } from 'react-native'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+    <View>Services</View>    
+    </>
   )
 }
 
