@@ -1,6 +1,6 @@
 import { Link } from 'expo-router'; 
 import React from 'react';
-import { View, Text, Animated } from 'react-native';
+import { View, Text, StyleSheet, Animated } from 'react-native';
 import { useEffect, useRef } from 'react';
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
         </Animated.Text>
         
         <View style={styles.navContainer}>
-        <Link href={""} style={styles.link}>
+        <Link href={"/"} style={styles.link}>
             🏠 Home
           </Link>
           <Link href={"about"} style={styles.link}>
