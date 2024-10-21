@@ -6,6 +6,7 @@ import { useEffect, useRef } from 'react';
 const Home = () => {
   const fadeAnim = useRef(new Animated.Value(0)).current;  // Initial opacity value
 
+  
   useEffect(() => {
     Animated.timing(fadeAnim, {
       toValue: 1, 
